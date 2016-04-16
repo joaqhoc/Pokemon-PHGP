@@ -1,0 +1,116 @@
+/* CSS estilo_base.css
+// Creado por Joaquin Centurion
+// Para Pokémon Rooms | PHGP
+// Correo: soportechispita@gmail.com
+// Facebook: Joaquin Centurion
+*/
+
+/* CUERPO
+--------------------------------------------------- */
+body,h1,h2,h3,p,quote,small,form,input,ul,li,ol,label{
+	/* restablecimiento simple página */
+	margin:0;
+	padding:0;
+}
+
+body{
+	/* Ajuste el color del texto por defecto , y una pila de fondo de la fuente */
+	color:#555;
+	font-size:0.825em;
+	background: #fcfcfc;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#file-manager{
+	background-color:#EEE;
+	border:1px solid #DDD;
+	margin:50px auto;
+	padding:10px;
+	width:400px;
+}
+
+ul.manager li{
+	background:url("iagenes/bg_gradient.gif") repeat-x center bottom #F5F5F5;
+	border:1px solid #DDD;
+	border-top-color:#FFF;
+
+	list-style:none;
+	position:relative;
+}
+
+ul.manager li a{
+	display:block;
+	padding:8px;
+}
+
+ul.manager li a:hover .download-label{
+	/* Cuando una lista se cernía sobre, mostrar la descarga de texto verde en su interior: */
+	display:block;
+}
+
+span.download-label{
+	background-color:#64B126;
+	border:1px solid #4E9416;
+	color:white;
+	display:none;
+	font-size:10px;
+	padding:2px 4px;
+	position:absolute;
+	right:8px;
+	text-decoration:none;
+	text-shadow:0 0 1px #315D0D;
+	top:6px;
+	
+	/* CSS3 Esquinas Redondeadas */
+	
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+
+span.download-count{
+	color:#999;
+	font-size:10px;
+	padding:3px 5px;
+	position:absolute;
+	text-decoration:none;
+}
+
+/* Sólo son necesarios para la página de demostración Los siguientes estilos */
+
+h1{
+	background:#f0f0f0;
+	border-bottom:1px solid #eaeaea;
+	font-size:1.5em;
+	font-weight:normal;
+	margin-bottom:15px;
+	padding:15px;
+	text-align:center;
+}
+
+h2 {
+	font-size:0.9em;
+	font-weight:normal;
+	padding-right:40px;
+	position:relative;
+	right:0;
+	text-align:right;
+	text-transform:uppercase;
+	top:-48px;
+}
+
+a, a:visited {
+	color:#0196e3;
+	text-decoration:none;
+	outline:none;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+.error {
+	color: #FF0000;
+}
+
+/* Version v1.0 | 09:39 a.m. 06/04/2016 */

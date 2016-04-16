@@ -1,0 +1,95 @@
+html, body {font-family: Verdana, Arial, Helvetica, sans-serif;background-image: url(../imagenes/degradado.jpg);background-repeat: repeat-x; background-color: #FFF;text-align : justify;line-height: 10px; height:100%;}
+p {font-size:12px;color: #000;line-height: 120%;margin: 0 0 10px 0;}
+strong {font-weight: bolder; }
+img {border : 0px;}
+img a{border : 1px;border-color:#0000FF;}
+.marco1 {padding:8px;float:right;margin: 5px 0 12px 5px;background-color: #f5f5f5;width: 200px;border: 1px solid #999999;}
+.marco2 {padding:8px;float:right;margin: 5px 0 38px 5px;background-color: #f5f5f5;width: 220px;border: 1px solid #999999;}
+.marco {padding:6px;float:right;margin: 5px 0 12px 5px;border: 1px solid #999999;}
+.marco1 IMG{border: 1px solid #000000} 
+.marco-test {padding:4px;margin: 10px 0 10px 5px;background-color: #459251;border: 1px solid #000000;color:#fff;}
+IMG.explica {display:block;margin: 10px auto 10px auto;}
+hr{color:#f2f2f2; clear:both;}  
+h1 {font-size:10px;text-align : center;color:#000;padding:0px 0px 0px 0px;margin:0px 0px 0px 0px;font-family: Verdana, Arial, Helvetica, sans-serif;color:#fff;text-decoration: none; line-height : 120%; font-weight:bold;}
+h2 {background-color: #459251;color:#000;border-bottom: 2px solid #000;padding: 6px;margin: 0 0 10px 0;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 20px;text-align:left;font-weight:bold;}
+h3 {font-size:15px;text-align : left;color : #666666;margin: 0 0 10px 0;font-weight:bold;}
+h4{font-size:13px;text-align : left;color : #666666;margin: 0 0 10px 0;font-weight:bold;}
+h5 {font-size: 12px;text-align : left;color : #666666;font-weight:bold;}
+h6 {font-size:12px;text-align : left;color : #666666;font-weight:bold;}
+td {font-size: 12px;text-align : center;color : #586885;}
+#container {background-image: url(../imagenes/fondo-container3.gif);margin: 0 auto;width:900px;border-style:solid;border-color:#000;border-width:1px;min-height:100%;height: auto!important;height:100%;}
+.overheader{width:896px;height:24px;background-color:#459251;padding: 2px;margin: 0px;font: bold 11px /1.6em Verdana, Arial, "Trebuchet MS";text-decoration: none;}
+.header{width:900px;height:93px;background-color:#fff;border-width:0;background-color:#fff;}
+.publi-logo{border-width:0;position:absolute;top:40px;left:465px;background-color:#fff;}
+.icons {text-align: right;position:relative;top:-10px;line-height: 20px;height: 24px;}
+.icons a {display: block;width: 22px; height: 22px; margin-left: 7px; float: right;text-align: right;}
+.icons .twitterlink {background: url(../imagenes/sprite-socialicons.png) no-repeat -22px 0;}
+.icons .youtubelink {background: url(../imagenes/sprite-socialicons.png) no-repeat -44px 0;}
+.icons .google {background: url(../imagenes/sprite-socialicons.png) no-repeat -66px 0;}
+.icons .facebooklink {background: url(../imagenes/sprite-socialicons.png) no-repeat -88px 0;}
+.icons .twitterlink:hover {background-position: -22px -22px;}
+.icons .google:hover {background-position: -66px -22px;}
+.icons .facebooklink:hover {background-position: -88px -22px;}
+.central{width:896px;height: 15px;background-color:#459251;border-style:solid;border-width:1px 0 1px 0;border-color:#000000;padding: 2px;color:#fff;font-weight:bold;FONT: bold 10px Verdana, Arial, "Trebuchet MS";text-align:right;}
+#menuv {border: 0px;float:right;width: 120px;font: 80% Verdana,Arial, Helvetica, sans-serif;}
+#menuv ul, li {list-style-type: none;}
+#menuv ul {margin: 0;padding: 0;}
+#menuv li {border-bottom: 1px solid #000;}
+#menuv a {text-decoration:none;color: #0000ff;background: #F8EC25;display: block;padding: 3px 6px;width: 108px;font-weight:normal;}
+#menuv a:hover {background: #459251;font-weight:bold;}
+.contenido {width:760px;float:left;}
+.contenedor-cuadros {margin-left:15px;clear:right;}
+.curso2{width:165px; height:100px; text-align:center; float:left;margin: 0 15px 20px 0; padding:15px 0px 25px 0; border: 1px solid #999;-moz-border-radius: 5px;-webkit-border-radius: 7px; position:relative;} 
+.curso2 strong a{ color:#000;text-shadow: #FFF 0 1px 0; line-height:15px;font-weight:bold;font-size:11px; text-transform:uppercase !important;} 
+.curso2 img {clear:left;position:absolute;left:38px;bottom:15px;}
+.curso2 p{ text-align:left; padding:15px 0 0 10px; color:#333; text-shadow: #FFF 0 1px 0; font-size:11px }
+.categorias {width:750px;height:auto;background-color:#fff;margin: 0px;padding:10px;float:left;}
+.categorias img{margin:0 5px 0 5px;}
+.categorias a:hover {text-decoration:none;font-weight:bold;}
+.index-abajo {width:760px;float:left;overflow:hidden;}
+.index-derecha{width:365px;height:auto;background-color:#fff;margin-left:380px;margin-top:-210px;padding:10px;}
+.index-derecha p {font-size:12px;color: #000;line-height: 120%;text-indent:10px;} 
+.index-derecha a{text-decoration:underline;color:#0000FF;font-weight:bold;}
+.index-derecha a:hover{text-decoration:none;font-weight:bold;}
+.index-derecha a:active{color:#0000FF;font-weight:bold;}
+.index-derecha a:visited{color:#CC33CC;font-weight:bold;}
+.index-izq{width:365px;height:190px;background-color:#FFF;margin:0px;padding:10px;}
+.index-izq p{font-size:12px;color: #000;line-height: 120%;text-indent:10px;}
+.index-izq a{text-decoration:underline;color:#0000FF;font-weight:bold;}
+.index-izq a:hover{text-decoration:none;font-weight:bold;}
+.index-izq a:active{color:#0000FF;font-weight:bold;}
+.index-izq a:visited{color:#CC33CC;font-weight:bold;}
+.principal-ancho{width:745px;height:auto;background-color:#FFF;padding:10px;margin:0px;overflow:hidden;}
+.principal-ancho p{font-size:12px;color: #000;line-height: 120%;text-indent:10px;}
+.principal-ancho a{text-decoration:underline;font-weight:bold;}
+.principal-ancho a:hover{text-decoration:none;font-weight:bold;}
+.principal-ancho a:active{color:#0000FF;font-weight:bold;}
+.principal-ancho a:visited{color:#0000FF;font-weight:bold;}
+.principal-ancho ul, ol {font-family: Verdana, Arial, Helvetica, sans-serif;font-size:12px;margin-left: 0;padding-left: 0;list-style-position:inside;}
+.principal-ancho li {margin-left: 2em;line-height: 120%;margin-bottom:10px;list-style-type:square;}
+.principal-test{width:740px;height:auto;background-color:#FFF;padding:10px;margin:0px;overflow:hidden;float:left;}
+.principal-test p{font-size:12px;color: #000;line-height: 120%;text-indent:10px;}
+.principal-test a{text-decoration:underline;font-weight:bold;}
+.principal-test a:hover{text-decoration:none;font-weight:bold;}
+.principal-test a:active{color:#0000FF;font-weight:bold;}
+.principal-test a:visited{color:#0000FF;font-weight:bold;}
+.principal-test ul {list-style-type:disc;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:12px;color: #000;line-height: 120%;margin: 0 0 10px 0;text-indent:10px;}
+.principal-test li {font-family: Verdana, Arial, Helvetica, sans-serif;font-size:12px;color: #000;line-height: 120%;margin: 0 0 10px 0;text-indent:10px;}
+.testTitulo {font-size: 15px;font-weight: bold;margin: 12px 0px 0px 4px;}
+.testTitulo a {display: block; width: 100%; height: 100%;}
+.test ul {list-style-type: none;}
+.test ul li {width: 54px;height: 63px;background-image: url(../imagenes/icono-test4.gif);margin: 5px 5px 12px 5px;text-align: center;float: left}
+.test ul li a {display: block; width: 100%; height: 100%;text-decoration: none;color: #000000;}
+.test ul li a:visited{text-decoration: none;color: #909090;}
+.boton {background-color:#e0dd38;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;border:1px solid #268a16;display:inline-block;cursor:pointer;color:#000000;font-family:Verdana;font-size:17px;font-weight:bold;margin: 10px 0 10px 0;padding:12px 48px;text-decoration:none;}
+.boton:hover {background-color:#5cb811;}
+.boton:active {position:relative;top:1px;}
+.recuadro {width:730px;clear:both; margin: 10px 0 15px 0; padding:5px; border: 2px solid #999999;position:relative;overflow:hidden;}
+.publi-derecha {width: 170px;height:auto;background-color:#FFF;margin:0 0 0 10px;float:right;}
+.footer{width:894px;height:20px;margin-top: -20px;background-color:#FFF;border-top:1px solid #000;margin:0 auto;padding: 3px;position:relative;clear:both;}
+.footer a, a:visited, a:active{color:#0000FF;text-decoration:underline;font-weight:bold;}
+.footer a:hover{text-decoration:none;font-weight:bold;}
+.footer h6{text-align:center;text-transform:uppercase;margin:5px auto;color:#666666;font-size:10px;}  
+.clearfooter {height: 20px;clear: both;} 
+.fondotipoh2 {background-color: #459251;border-bottom: 2px solid #000;padding: 6px;margin: 0 0 10px 0;}
+.tipoh2 {color:#000;font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 20px;text-align:left;font-weight:bold;text-indent:0px;}   

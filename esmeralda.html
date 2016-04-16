@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<!Sitio Web creado por Joaquin Centurion>
+<html lang="es">
+<head> 
+	<!-- CSS --> 
+	<link rel="stylesheet" href="css/estilo_base_room.css">
+	<!-- META --> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- TITULO -->
+	<title>Pokémon Esmeralda | GBA | PDJ</title>
+	<!-- JS --> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head> 
+<body>
+<p>
+<center>
+<titulo>Pokémon Esmeralda | GBA</titulo>
+</center>
+<p>
+
+		<div align="center" class="hidden-xs hidden-sm">
+
+			<div id="emulator">
+				<p>To play this game, please, download the latest Flash player!</p>
+				<br>
+				<a href="http://www.adobe.com/go/getflashplayer">
+					<img src="//www.adobe.com/images/shared/download_buttons/get_adobe_flash_player.png" alt="Get Adobe Flash player"/>
+				</a>
+			</div>
+		
+		</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+
+<script type="text/javascript">
+
+    var resizeOwnEmulator = function(width, height)
+    {
+        var emulator = $('#emulator');
+        emulator.css('width', width);
+        emulator.css('height', height);
+    }
+
+    $(function()
+    {
+        function embed()
+        {
+            var emulator = $('#emulator');
+            if(emulator)
+            {
+                var flashvars = 
+                {
+                    system : 'gba',
+                    url : '/roms/Pokemon - Esmeralda (S).zip'
+                };
+                var params = {};
+                var attributes = {};
+
+                params.allowscriptaccess = 'sameDomain';
+                params.allowFullScreen = 'true';
+                params.allowFullScreenInteractive = 'true';
+
+                swfobject.embedSWF('/emulador/flash/Nesbox.swf', 'emulator', '640', '480', '11.2.0', '/emulador/flash/expressInstall.swf', flashvars, params, attributes);
+            }
+        }
+
+        embed();
+    });
+
+</script>
+<p>
+</div>
+<center>
+<p><boton2><a href="/roms/Pokemon - Esmeralda (S).zip">Click AQUI para descargar</a></boton2></p>
+</center>
+</body>
+</html>
+ <!Web creada por PDJ | Programación de Juegos - HGP>
+ <!Sistema implementado de NESBox Emulador Web en JavaScript>
