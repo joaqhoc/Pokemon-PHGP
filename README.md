@@ -11,5 +11,7 @@ Roms originales y Hack Rooms en Español.
 ======================================================
 
 Contacto: soportechispita@gmail.com
+
 Facebook: facebook.com/skary4anonhacks
+
 Twitter: twitter.com/Joaqho
