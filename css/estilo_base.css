@@ -82,6 +82,16 @@ A:hover {
 	color: rgb(178,34,34);
 }
 
+#Rubi_Random_Locke {
+	text-decoration: none;
+	color: white;
+}
+
+#Rubi_Random_Locke:hover {
+	text-decoration: none;
+	color: rgb(178,34,34);
+}
+
 #Zafiro {
 	text-decoration: none;
 	color: white;
@@ -110,6 +120,26 @@ A:hover {
 #Glazed:hover {
 	text-decoration: none;
 	color: rgb(153,0,153);
+}
+
+#Light_Platinum {
+	text-decoration: none;
+	color: white;
+}
+
+#Light_Platinum:hover {
+	text-decoration: none;
+	color: rgb(128,128,128);
+}
+
+#Life_of_Guardians {
+	text-decoration: none;
+	color: white;
+}
+
+#Life_of_Guardians:hover {
+	text-decoration: none;
+	color: rgb(173,0,173);
 }
 
 
