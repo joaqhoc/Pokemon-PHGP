@@ -21,6 +21,6 @@ Twitter: twitter.com/Joaqho
 
 ======================================================
 
-# Lincesia
+# Licencia
 
 © 2016 Pokémon. © 1995-2016 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, los nombres de los personajes de Pokémon, Nintendo 3DS, Nintendo DS, Wii y Wiiware son marcas comerciales de Nintendo. Las marcas comerciales restantes pertenecen a sus respectivos propietarios.
