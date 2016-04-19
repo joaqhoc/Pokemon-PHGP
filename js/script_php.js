@@ -1,5 +1,10 @@
+// JS script_php.js
+// Creado por Joaquin Centurion
+// Para Pokémon Rooms | PHGP
+// Correo: soportechispita@gmail.com
+// Facebook: Joaquin Centurion
+
 $(document).ready(function(){
-	/* This code is executed after the DOM has been completely loaded */
 
 	$('ul.manager a').click(function(){
 		
