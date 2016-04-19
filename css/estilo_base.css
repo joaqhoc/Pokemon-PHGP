@@ -142,6 +142,27 @@ A:hover {
 	color: rgb(173,0,173);
 }
 
+#Resolute {
+	text-decoration: none;
+	color: white;
+}
+
+#Resolute:hover {
+	text-decoration: none;
+	color: rgb(102,255,255);
+}
+
+#Liquid_Crystal {
+	text-decoration: none;
+	color: white;
+}
+
+#Liquid_Crystal:hover {
+	text-decoration: none;
+	color: rgb(204,204,0);
+}
+
+
 
 /* TITULO
 --------------------------------------------------- */
@@ -203,17 +224,16 @@ boton2 {
 
 /* EFECTO IMAGEN
 --------------------------------------------------- */
-img {
+img.efecto{
     border-radius: 50%;
-	-webkit-filter: blur(1px);filter: blur(4px);
+	-webkit-filter: blur(1px) grayscale(1);filter: blur(4px) grayscale(1);
 }
 
 /* EFECTO IMAGENES HOVER
 --------------------------------------------------- */
-img:hover {
+img.efecto:hover {
 	opacity: 0.8;
     border-radius: 55%;
-	-webkit-filter: grayscale(100%);filter: grayscale(100%);
 	-webkit-filter: drop-shadow(5px 5px 7px black);filter: drop-shadow(5px 5px 7px black);
 }
 
@@ -231,6 +251,17 @@ box-shadow: 5px 5px 10px rgb(0,191,255);
 informacion {
 }
 
+/* Licencia Common
+--------------------------------------------------- */
+licencia {
+	opacity: 0.4;
+	z-index: -100;
+	position: relative;
+	font-size: 5px;
+    text-align: right;
+    color: orange;
+}
+
 /* Panel JQuery
 --------------------------------------------------- */
 #panel, #flip {
@@ -245,6 +276,43 @@ informacion {
 #panel {
     padding: 7px;
     display: none;
-}	
+}
+
+/* Pie Pagina
+--------------------------------------------------- */
+#pie_pagina {
+    clear:both;
+    font-size:11px;
+    color:#999999;
+    width:961px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:1px;
+    margin-bottom:20px;
+    position:relative;
+}
+
+#pie_pagina .enlaces {
+    text-align:center;
+}
+
+#pie_pagina .enlaces .pipe {
+    color:#cccccc;
+}
+
+#pie_pagina .sitioweb {
+    color:orange;
+    text-align:center;
+    margin-top:6px;
+}
+
+#footer .iconos-social {
+    width:80px;
+    top:0;
+    right:8px;
+    position:absolute;
+    text-align:right;
+}
 
 /* Version v1.0 | 05:01 a.m. 06/04/2016 */
+/* Ultima actualización 11:14 a.m. 18/04/2016 */

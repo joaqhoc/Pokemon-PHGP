@@ -42,76 +42,6 @@ A:hover {
 	text-decoration: none;
 }
 
-#Fuego {
-	text-decoration: none;
-	color: white;
-}
-
-#Fuego:hover {
-	text-decoration: none;
-	color: red;
-}
-
-#Esmeralda {
-	text-decoration: none;
-	color: white;
-}
-
-#Esmeralda:hover {
-	text-decoration: none;
-	color: rgb(32,178,170);
-}
-
-#VerdeHoja {
-	text-decoration: none;
-	color: white;
-}
-
-#VerdeHoja:hover {
-	text-decoration: none;
-	color: rgb(124,252,0);
-}
-
-#Rubi {
-	text-decoration: none;
-	color: white;
-}
-
-#Rubi:hover {
-	text-decoration: none;
-	color: rgb(178,34,34);
-}
-
-#Zafiro {
-	text-decoration: none;
-	color: white;
-}
-
-#Zafiro:hover {
-	text-decoration: none;
-	color: rgb(30,144,255);
-}
-
-#Zei {
-	text-decoration: none;
-	color: white;
-}
-
-#Zei:hover {
-	text-decoration: none;
-	color: rgb(128,128,128);
-}
-
-#Glazed {
-	text-decoration: none;
-	color: white;
-}
-
-#Glazed:hover {
-	text-decoration: none;
-	color: rgb(153,0,153);
-}
-
 
 /* TITULO
 --------------------------------------------------- */
@@ -171,21 +101,6 @@ boton2 {
 }
 
 
-/* EFECTO IMAGEN
---------------------------------------------------- */
-img {
-    border-radius: 50%;
-	-webkit-filter: blur(1px);filter: blur(4px);
-}
-
-/* EFECTO IMAGENES HOVER
---------------------------------------------------- */
-img:hover {
-	opacity: 0.8;
-    border-radius: 55%;
-	-webkit-filter: grayscale(100%);filter: grayscale(100%);
-	-webkit-filter: drop-shadow(5px 5px 7px black);filter: drop-shadow(5px 5px 7px black);
-}
 
 /* CUADROS JUEGOS CON EFECTOS
 --------------------------------------------------- */
@@ -201,20 +116,5 @@ box-shadow: 5px 5px 10px rgb(0,191,255);
 informacion {
 }
 
-/* Panel JQuery
---------------------------------------------------- */
-#panel, #flip {
-    padding: 7px;
-    font-size: 18px;
-    text-align: center;
-    color: white;
-    border: solid 1px #666;
-    border-radius: 3px;
-}
-
-#panel {
-    padding: 7px;
-    display: none;
-}	
 
 /* Version v1.0 | 12:38 p.m. 11/04/2016 */
