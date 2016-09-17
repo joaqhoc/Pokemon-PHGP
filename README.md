@@ -8,7 +8,7 @@ Se usa NESBox en JavaScript para emular los roms.
 
 Roms originales y Hack Rooms en Español e Ingles
 
-Para descargar las Rooms o los Zips pueden entrar a: http://4am.esy.es/roms
+Para descargar las Rooms o los Zips pueden entrar a: pokemon-gba.esy.es/roms
 
 Programado en CSS3 HTML5 JAVASCRIPT Y JQUERY
 
@@ -16,7 +16,7 @@ Programado en CSS3 HTML5 JAVASCRIPT Y JQUERY
 
 Contacto: soportechispita@gmail.com
 
-Facebook: facebook.com/skary4anonhacks
+Facebook: facebook.com/joaquincentu
 
 Twitter: twitter.com/Joaqho
 
