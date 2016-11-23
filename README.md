@@ -14,7 +14,7 @@ Programado en CSS3 HTML5 JAVASCRIPT Y JQUERY
 
 ======================================================
 
-Contacto: soportechispita@gmail.com
+Contacto: joaqhoc@gmail.com
 
 Facebook: facebook.com/joaquincentu
 
